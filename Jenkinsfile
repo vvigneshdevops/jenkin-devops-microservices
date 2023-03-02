@@ -1,4 +1,10 @@
-node {
+node{
+	echo "Build"
+	echo "QA"
+	echo "Integration Test"
+}
+
+/*node {
 	stage('Build') {
 		echo "Build"
 	}
@@ -8,4 +14,4 @@ node {
 	stage('QA- Integration') {
 		echo "Integration"
 	}
-}
+}*/
